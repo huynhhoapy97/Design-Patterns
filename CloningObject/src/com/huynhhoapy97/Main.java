@@ -6,7 +6,8 @@ public class Main {
                 1,
                 "Hoa",
                 new Address("Nguyen Trung Truc"),
-                new Score(6.5, 7.5));
+                new Score(6.5, 7.5),
+                new Math(3000000.0));
         Student student_2 = student_1.clone();
         System.out.println(student_1);
         System.out.println(student_2);
@@ -29,6 +30,14 @@ public class Main {
          */
         System.out.println("\n-------- After changed object attribute --------");
         student_2.getScore().setMath(9.0);
+        System.out.println(student_1);
+        System.out.println(student_2);
+
+        /*
+            Demo Prototype
+         */
+        System.out.println("\n-------- After changed object attribute --------");
+        student_2.getTuitionSubject().setTuition(3500000.0);
         System.out.println(student_1);
         System.out.println(student_2);
     }

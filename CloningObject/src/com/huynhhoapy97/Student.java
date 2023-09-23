@@ -5,15 +5,17 @@ public class Student implements Cloneable {
     private String name;
     private Address address;
     private Score score;
+    private TuitionSubject tuitionSubject;
 
     public Student() {
     }
 
-    public Student(Integer id, String name, Address address, Score score) {
+    public Student(Integer id, String name, Address address, Score score, TuitionSubject tuitionSubject) {
         this.id = id;
         this.name = name;
         this.address = address;
         this.score = score;
+        this.tuitionSubject = tuitionSubject;
     }
 
     public Integer getId() {
@@ -48,6 +50,14 @@ public class Student implements Cloneable {
         this.score = score;
     }
 
+    public TuitionSubject getTuitionSubject() {
+        return tuitionSubject;
+    }
+
+    public void setTuitionSubject(TuitionSubject tuitionSubject) {
+        this.tuitionSubject = tuitionSubject;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
@@ -55,6 +65,7 @@ public class Student implements Cloneable {
                 ", name='" + name + '\'' +
                 ", address=" + address +
                 ", score=" + score +
+                ", tuitionSubject=" + tuitionSubject +
                 '}';
     }
 
@@ -62,6 +73,7 @@ public class Student implements Cloneable {
     protected Student clone() throws CloneNotSupportedException {
         Student student = (Student) super.clone();
         student.score = student.score.clone();
+        student.tuitionSubject = student.tuitionSubject.createTuitionSubject();
 
         return student;
     }
