@@ -1,2 +1,5 @@
-package com.huynhhoapy97.interfaces;public interface TypeAccount {
+package com.huynhhoapy97.interfaces;
+
+public interface TypeAccount {
+    void createType();
 }
