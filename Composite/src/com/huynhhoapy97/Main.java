@@ -19,5 +19,6 @@ public class Main {
         List<Product> productList = Arrays.asList(product_1, product_2, product_3);
         PackageComposite packageComposite = new PackageComposite(productList);
         System.out.println("Total price: " + packageComposite.calculatePrice());
+
     }
 }
