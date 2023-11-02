@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AbstractFactory/AbstractFactory.iml" filepath="$PROJECT_DIR$/AbstractFactory/AbstractFactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AbstractFactoryNew/AbstractFactoryNew.iml" filepath="$PROJECT_DIR$/AbstractFactoryNew/AbstractFactoryNew.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AbstractFactoryNew.main.iml" filepath="$PROJECT_DIR$/.idea/modules/AbstractFactoryNew.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AbstractFactoryNew.test.iml" filepath="$PROJECT_DIR$/.idea/modules/AbstractFactoryNew.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/Adapter/Adapter.iml" filepath="$PROJECT_DIR$/Adapter/Adapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bridge/Bridge.iml" filepath="$PROJECT_DIR$/Bridge/Bridge.iml" />
       <module fileurl="file://$PROJECT_DIR$/Builder/Builder.iml" filepath="$PROJECT_DIR$/Builder/Builder.iml" />
